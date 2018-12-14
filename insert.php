@@ -12,7 +12,7 @@ $sql	= ("INSERT INTO santri SET nama='$nama', email='$email', no_hp='$no_hp', di
 $insert = mysqli_query($koneksi,$sql );
 
 if($insert)
-	header('Location:list1.php');
+	header('Location:list.php');
 else
 	 echo "Gagal";
  ?>
